@@ -1,0 +1,1 @@
+const divvy = document.getElementsByTagName('div')
