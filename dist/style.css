@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap');
+
+:root{
+    --black: #000000;
+    --darkgray: #646464;
+    --gray: #949494;
+    --lightgray: #dcdcdc;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+}
+
+
+
+.pageTitle{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--black);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+
+.section{
+    box-sizing: border-box;
+    border: 2px dashed var(--lightgray);
+    border-radius: 12px;
+    padding: 15px;
+    height: calc(100vh - 80px);
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.sectionTitle{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 15px;
+    color: var(--darkgray);
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 146px;
+    height: 41px;
+    background: var(--black);
+    border-radius: 19px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: var(--darkgray);
+}
+
+.topicList{
+    display: flex;
+    flex-direction: column;
+}
+
+.topic{
+    color: var(--darkgray);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.topic:hover{
+    color: var(--gray);
+}
+
+.topicInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+
+.topicTitleSubheader{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.topicTitleSubheader>.material-symbols-outlined{
+    align-self: flex-end;
+        cursor: pointer;
+    margin-left: 15px;
+}
+
+.topicPrefix{
+    color: var(--black);
+    margin-right: 10px;
+}
+
+#topicTitle{
+    color: var(--darkgray);
+}
+
+#progressBar{
+    align-self: center;
+    margin: 20px;
+}
+
+.ideaInputArea{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+input#idea{
+    height: 60px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.idea{
+    color: var(--darkgray);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.idea:hover{
+    color: var(--gray);
+}
