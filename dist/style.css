@@ -113,6 +113,11 @@ button:active{
     font-size: 18px;
 }
 
+#ideasContainer{
+    display:block;
+}
+
+
 .topicTitleSubheader{
     display: flex;
     flex-direction: row;
