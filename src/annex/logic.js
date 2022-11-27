@@ -8,7 +8,6 @@ export const createTopic = (topicText) => {
         ideas: [],
         active: true,
     })
-    addIdea("The first idea could be this idea.");
     renderTopics();
     // renderIdeas();
 }
